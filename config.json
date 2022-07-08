@@ -1,0 +1,129 @@
+{
+    "payment":{
+        "url": "Seggui il link e completa il pagamento: https://www.paypal.me/ \n\nInviaci uno screen del pagamento effettuato!",
+        "tutorial": "1) Seleziona il Social;\n2) Seleziona la categoria (Like, Follower...);\n3) Seleziona la tariffa che vuoi acquistare;\n\nVerrai indirizzato per il pagamento sulla piattaforma PayPal.\n\n4) Seleziona pagamento per familiari e amici;\n5) Indica l'importo da pagare ed effettua il pagamento;\n6) Inviaci lo screen della transazione come conferma del pagamento. \n\nIMPORTANTE: Gli ordini che non specificano invio a familiari e amici non saranno evasi!"
+    },
+    "menu":
+    [
+        {
+            "id": "10",
+            "type": "btn",
+            "icon": "",
+            "text": "Instagram",
+            "childs": [
+                {
+                    "id": "11",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Likes",
+                    "fare": [
+                        {"100": "0.40"},
+                        {"5000": "16.00"},
+                        {"10000": "24.00"},
+                        {"50000": "80.00"},
+                        {"500000": "400.00"}
+                    ]
+                },
+                {
+                    "id": "12",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Followers",
+                    "fare": [
+                        {"100": "0.50"},
+                        {"5000": "20.00"},
+                        {"10000": "30.00"},
+                        {"50000": "100.00"},
+                        {"500000": "500.00"}
+                    ]
+                },
+                {
+                    "id": "13",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Views",
+                    "fare": [
+                        {"1000": "0.40"},
+                        {"50000": "16.00"},
+                        {"100000": "24.00"},
+                        {"500000": "80.00"},
+                        {"5000000": "400.00"}
+                    ]
+                },
+                {
+                    "id": "14",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Commensts",
+                    "fare": [
+                        {"10": "0.30"},
+                        {"500": "12.00"},
+                        {"1000": "18.00"},
+                        {"5000": "60.00"},
+                        {"50000": "300.00"}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "type": "btn",
+            "icon": "",
+            "text": "Tik Tok",
+            "childs": [
+                {
+                    "id": "21",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Likes",
+                    "fare": [
+                        {"100": "2.00"},
+                        {"5000": "80.00"},
+                        {"10000": "120.00"},
+                        {"50000": "400.00"},
+                        {"500000": "2000.00"}
+                    ]
+                },
+                {
+                    "id": "22",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Followers",
+                    "fare": [
+                        {"100": "1.00"},
+                        {"5000": "40.00"},
+                        {"10000": "60.00"},
+                        {"50000": "200.00"},
+                        {"500000": "1000.00"}
+                    ]
+                },
+                {
+                    "id": "23",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Views",
+                    "fare": [
+                        {"1000": "0.20"},
+                        {"50000": "8.00"},
+                        {"100000": "12.00"},
+                        {"500000": "40.00"},
+                        {"5000000": "200.00"}
+                    ]
+                },
+                {
+                    "id": "24",
+                    "type": "btn",
+                    "icon": "",
+                    "text": "Commensts",
+                    "fare": [
+                        {"10": "2.00"},
+                        {"500": "80.00"},
+                        {"1000": "120.00"},
+                        {"5000": "400.00"},
+                        {"50000": "2000.00"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
