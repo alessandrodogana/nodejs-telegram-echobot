@@ -126,7 +126,7 @@ bot.command("start", async (ctx) => {
 
 bot.launch({
   webhook: {
-    domain: '',
+    domain: 'https://nodejs-telegram-echobot-uyuvya.codecapsules.co.za/',
     port: process.env.PORT
   }
 })
