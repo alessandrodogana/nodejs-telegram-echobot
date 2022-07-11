@@ -9,6 +9,7 @@ const bot = new Bot(process.env.BOT_TOKEN);
 // Create base menu.
 const menu = new Menu("root-menu")
 .text("Tutorial", (ctx) => ctx.reply(config.payment.tutorial)).row()
+.text("Assistenza", (ctx) => ctx.reply(config.payment.assistenza)).row()
 .submenu("Instagram", "ig-menu").row()
 .submenu("Tik Tok", "tt-menu");
 
