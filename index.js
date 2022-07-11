@@ -124,12 +124,13 @@ bot.command("start", async (ctx) => {
   await ctx.reply("I prezzi più bassi del mercato!", { reply_markup: menu });
 });
 
-bot.launch({
+/*bot.launch({
   webhook: {
     domain: 'https://nodejs-telegram-echobot-uyuvya.codecapsules.co.za/',
     port: process.env.PORT
   }
-})
+})*/
+bot.start();
 
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
