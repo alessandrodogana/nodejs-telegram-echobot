@@ -1,6 +1,6 @@
 {
     "payment":{
-        "url": "Segui il link e completa il pagamento: https://www.paypal.me/ \n\nATTENZIONE: Inserisci nella causale: {causale}\n\nInviaci uno screen del pagamento effettuato!",
+        "url": "Segui il link e completa il pagamento: https://www.paypal.me/ \n\nATTENZIONE!\nInserisci nella causale:\n{causale}\n Non dimenticare di inviarci uno screen del pagamento effettuato!",
         "tutorial": "1) Seleziona il Social;\n2) Seleziona la categoria (Like, Follower...);\n3) Seleziona la tariffa che vuoi acquistare;\n\nVerrai indirizzato per il pagamento sulla piattaforma PayPal.\n\n4) Seleziona pagamento per familiari e amici;\n5) Indica l'importo da pagare ed effettua il pagamento;\n6) Inviaci lo screen della transazione come conferma del pagamento. \n\nIMPORTANTE: Gli ordini che non specificano invio a familiari e amici non saranno evasi!"
     },
     "menu":
